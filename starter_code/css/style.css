@@ -34,12 +34,102 @@ body {
 /*******************************************/
 
 header {
-
+    background-image: url("https://raw.git.generalassemb.ly/JDI-KSA/hw-week1-day3-CSS-HTML/master/starter_code/images/header_bg.jpg?token=AAAIETJUCFGTC6ICDXTXAJ274J67Y");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
 }
+.Relaxr  {text-align: left;
+        font-weight: bolder;
+        font-size: 24px;
+    }
+.h2-header{font-weight: bold;
+                  font-size: 24px;
+}
+.button {
+    background-color: #f9e42e;
+    font-weight: bolder;
+    font-size: 14px;
+    border: 5px;
+    color: #033048;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.bgc {
+      background-color: #f0efef}
+.Benefits{
+    font-weight: bold;
+    font-size: 20px;
+    color: #033048;
+}
+li{color:#afafaf;
+font-size: 13px;}
+.backcolor{color:#f9e42e;}
+.perfect-personal{
+    color:#afafaf;
+    font-size: 13px;
+}
+.Amanda{
+    background-image: url("https://raw.git.generalassemb.ly/JDI-KSA/hw-week1-day3-CSS-HTML/master/starter_code/images/testimonial_bg.jpg?token=AAAIETKSPXXY6OJNFKWAPGC74KCMQ");;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    color:white;
+}
+
+
+.Relaxr{font-weight: bolder;
+    text-align: center;
+    font-size: 24px;
+    color:#f9e42e;}  
+    .cr{font-size: 9px;
+        font-weight: bold;}
 
 footer {
-
+   /* position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    text-align: center;
 }
+
+.mybutton{
+    background-color:  #033048;
+    background-position: center;
+    font-weight: bolder;
+    font-weight: bolder;
+    font-size: 12px;
+    border: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+     text-decoration: none;
+    display: inline-block;
+  }
+/*
+.button-container {
+width: 100%;
+  margin: auto;
+  height: 500px;
+
+  }
+
+*/
+
 
 /******************************************
 /* ADDITIONAL STYLES
